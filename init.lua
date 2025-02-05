@@ -22,7 +22,7 @@ vim.opt.mouse = "a"
 -- Don't show the mode, since it's already in the status line
 vim.opt.showmode = false
 
--- Set tab to width 4
+-- Set tab width to 4
 vim.opt.tabstop = 4
 
 -- Sync clipboard between OS and Neovim.
