@@ -1,1 +1,1 @@
-print("Hello from config")
+require("config.keymaps")
