@@ -1,5 +1,4 @@
-require("config.options")
-require("config.keymaps")
-
--- Finally load lazy and plugins
-require("config.lazy")
+require "config.lazy"
+require "config.options"
+require "config.keymaps"
+require "config.autocommands"
