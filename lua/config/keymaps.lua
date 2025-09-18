@@ -28,7 +28,8 @@ vim.api.nvim_create_autocmd("LspAttach", {
       mode = mode or "n"
       vim.keymap.set(mode, keys, func, { buffer = event.buf, desc = "LSP: " .. desc })
     end
-    map("grn", vim.lsp.buf.rename, "[R]e[n]ame")
+    map("<leader>rn", vim.lsp.buf.rename, "[R]e[n]ame")
+    map("<leader>gd", vim.lsp.buf.definition, "[G]oto [D]efinition")
   end,
 })
 
