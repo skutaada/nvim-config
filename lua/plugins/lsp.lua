@@ -21,7 +21,7 @@ return {
       local capabilities = require("blink.cmp").get_lsp_capabilities()
       local servers = {
         lua_ls = {},
-        pyright = {},
+        ty = {},
       }
       local ensure_installed = vim.tbl_keys(servers or {})
       vim.list_extend(ensure_installed, { "stylua", "ruff" })
